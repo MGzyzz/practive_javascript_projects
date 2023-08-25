@@ -1,4 +1,4 @@
-function prototype(answer) {
+function mystery(answer) {
     if (answer == '5' || answer == 'пять')
         alert('Ответ верный')
     else {
@@ -7,4 +7,4 @@ function prototype(answer) {
 }
 
 answer_person = prompt('У квадратного стола отпилили один угол. Сколько теперь углов у него стало?')
-prototype(answer_person)
+mystery(answer_person)
